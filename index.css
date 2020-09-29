@@ -1,0 +1,96 @@
+html, body {
+    margin: 10;
+    padding: 10;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    border: solid black;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;
+}
+
+.pac-dot {
+    /* background-color: green; */
+    background-image: url(dollar2.png);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    /* background-color: green; */
+    background-image: url(house.png);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 7.5px;
+}
+
+.pacman {
+    /* background-color: orange; */
+    background-image: url(pacman.jpg);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 7.5px;
+    border: none;
+}
+
+.blinky {
+    /* background-color: red; */
+    background-image: url(blinky.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.pinky {
+    /* background-color: pink; */
+    background-image: url(pinky.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.inky {
+    /* background-color: aqua; */
+    background-image: url(inky.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.clyde {
+    /* background-color: orange; */
+    background-image: url(clyde.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.scared-ghost {
+    /* background-color: aquamarine; */
+    background-image: url(scared.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
